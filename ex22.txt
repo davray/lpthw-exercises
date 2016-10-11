@@ -1,16 +1,29 @@
-What Do You Know So Far?
+Learn Python the Hard Way: Exercise 22 - What Do You Know So Far?
 
-Terms:
-Indenting: Using spaces to let interpreter know what code goes with what expressions typed. Four spaces or a TAB.
+I opened every piece of code from the exercises and took note of everything 
+I scanned over. Each explanation is what I can
+recall from memory. Every new term I run across is researched in the 
+function pydoc as well as The Python Standard Library
+online (https://docs.python.org/2/library/).
 
-Deindenting: Term used when going back to your original code after indenting.
+Indenting: Using spaces to let interpreter know what code goes with what 
+expressions typed. Four spaces or a TAB.
 
-print:
-	Writes object to standard output (Prints out string to screen.) After the string is passed, "print" adds a new line escape (\n) to the end. 
+Dedenting: Term used when going back to your original code after indenting. 
+Going back 4 spaces.
 
-#: Octothorpe, bash, ampersand, pound sign. The bash symbol disables any line of code following it, telling the interpreter to ignore it.
+print: Writes object to standard output (Prints out string to screen.) After 
+the string is passed, "print" adds a new line 
+escape (\n) to the end. 
 
-,: Comma operator. The comma acts as a sequence breaker and it is also used to tell the print command to not start a new line when finished.
+#: Octothorpe, hash, ampersand, pound sign, number sign. The bash symbol 
+disables any line of code following it, telling the 
+interpreter 
+to ignore it.
+
+,: Comma operator. The comma acts as a sequence breaker and it is also used 
+to tell the print command to not start a new 
+line when finished.
 
 +: Addition.
 
@@ -20,16 +33,24 @@ print:
 
 / (Forward Slash): Division. 
 
-%: Modulo or Remainder. "%" can be used to retrieve the remainder of a formula or it is most commonly used as a string format operator.
+%: Modulo or Remainder. "%" can be used to retrieve the remainder of a 
+formula or it is most commonly used as a string 
+format operator.
 
-': Single-quote. Tells the interpreter that the enclosed text is to be quoted(printed) out and not ran as a function, operator, variable and etc...
+': Single-quote. Tells the interpreter that the enclosed text is to be quoted
+(printed) out and not ran as a function, 
+operator, variable and etc...
 
-": Double-quote. Tells the interpreter that the enclosed text is to be quoted(printed) out and not ran as a function, operator, variable and etc...
+": Double-quote. Tells the interpreter that the enclosed text is to be quoted
+(printed) out and not ran as a function, 
+operator, variable and etc...
 
-:: Colon or "slicing" is used when defining a function. All code that's indented 4 spaces after is considered part of that function.
+:: Colon or "slicing" is used when defining a function. All code that's 
+indented 4 spaces after is considered part of that 
+function.
 
-
-''' or """: Triple quotes tell the interpreter that any text following is to be quoted for printing output.
+''' or """: Triple quotes tell the interpreter that any text following is to 
+be quoted for printing output.
 
 =: Equal. Evaluates an expression or most commonly gives a name to variables.
 
@@ -71,25 +92,36 @@ print:
 
 \X: Hex 32-bit escape sequence. Prints out 32-bit hexadecimal value.
 
-raw_input(): Built in function that gets input inside program instead of outside at interpreter level and stores it as a string. 
+raw_input(): Built in function that gets input inside program instead of 
+outside at interpreter level and stores it as a string. 
 
 pydoc: Pytons documentation library
 
-os: Operting System Module inside Python. The module handles core level OS functions like path and directory names and current locations.
+os: Operting System Module inside Python. The module handles core level OS 
+functions like path and directory names and current locations.
 
-os.path(): Function inside Module os that checks if given file path exists. Returns True or False.
+os.path(): Function inside Module os that checks if given file path exists. 
+Returns True or False.
 
-os.exists(): Function from Module os that checks if file exists. Returns True or False.
+os.exists(): Function from Module os that checks if file exists. Returns 
+True or False.
 
-sys: System module inside Python. The module deals with functions that are directly related to the interpreter or deal very closely with it.
+sys: System module inside Python. The module deals with functions that are 
+directly related to the interpreter or deal very closely with it.
 
-sys.argv(): Function from Module sys that requires given variables to be assigned values from interpeter level.
+sys.argv(): Function from Module sys that requires given variables to be
+assigned values from interpeter level.
 
-open(): Open a file. The preferred method of opening files. Calls file() to perform functions.
+open(): Open a file. The preferred method of opening files. Calls file() to 
+perform functions.
 
-file(file, flag): Opens a file. Not the preferred method of opening files. A flag should be given when calling file(). Files are opened in 'r' (read) by default. Other flags are 'w' (write) which truncates a file automatically and allows for data to be written. 'a' is to append to last byte.
+file(file, flag): Opens a file. Not the preferred method of opening files. A 
+flag should be given when calling file(). Files are opened in 'r' (read) by 
+default. Other flags are 'w' (write) which truncates a file automatically 
+and allows for data to be written. 'a' is to append to last byte.
 
-file.read(): Function that reads file at most bytes then returns it as a string.
+file.read(): Function that reads file at most bytes then returns it as a 
+string.
 
 file.seek([0]): Function that seeks to given byte of file.
 
@@ -105,20 +137,26 @@ int(raw_input()): Converts input string to an integer.
 
 len(): Counts the number of bytes in a file.
 
-from: Tells the interpreter that we are going to be pulling code from a Module to use.
+import...from: Tells the interpreter that we are going to be pulling code 
+from a Module to use.
 
-import: Tells the interpreter that we would like to borrow code from the given Module without having to add it all to our code by ourselves.
+import: Tells the interpreter that we would like to borrow code from the 
+given Module without having to add it all to our code by ourselves.
 
-ValueError: Error given by interpreter when executing code and incorrect values are handed to certain expressions.
+ValueError: Error given by interpreter when executing code and incorrect 
+values are handed to certain expressions.
 
-Line: Code is organized by lines. The term line is used when referring to a specific line of code.
+Line: Code is organized by lines. The term line is used when referring to a 
+specific line of code.
 
 def: Define. Used to create a new function.
 
 return: Evaluates an expression behind the scenes.
 
-( ): Used to group expressions, variables, numbers, etc... also used to tell the interpeter when the contents of a function begin and end
+( ): Used to group expressions, variables, numbers, etc... also used to tell 
+the interpeter when the contents of a function begin and end.
 
-;: Semi-colon. Tells the interpeter it's the end of the line of code and to process whatever is next.
+;: Semi-colon. Tells the interpeter it's the end of the line of code and to 
+process whatever is next.
 
 Argument: An expression used for something that is required to run said code.
