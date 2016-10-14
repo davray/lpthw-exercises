@@ -4,11 +4,11 @@ def break_words(stuff):
 	return words
 	
 def sort_words(words):
-	"""Sorts theex words."""
+	"""Sorts the words."""
 	return sorted(words)
 	
 def print_first_word(words):
-	"""Print the first word after popping it off."""
+	"""Prints the first word after popping it off."""
 	word = words.pop(0)
 	print word
 	
@@ -33,7 +33,7 @@ def print_first_and_last_sorted(sentence):
 	words = sort_sentence(sentence)
 	print_first_word(words)
 	print_last_word(words)
-	
+	 
 # Study Drills
 # 1. Take the remaining lines of the What You Should see output and figure
 #    out what they are doing. Make sure you understand how you are running
@@ -47,4 +47,4 @@ def print_first_and_last_sorted(sentence):
 #    session and see how all your functions are right there.
 # 4. Try breaking your file and see what it looks like in python when you
 #    use it. You will have to quit python with quit() to be able to reload
-#    it.	
+#    it.
