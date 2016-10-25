@@ -1,6 +1,6 @@
-people = 20
-cats = 30
-dogs = 15
+people = 30
+cats = 31
+dogs = 16
 
 
 if people < cats:
@@ -38,3 +38,6 @@ if people and dogs:
 #	 - The interpreter will return an error
 # 4. Can you put other boolean expressions from Exercise 27 in the
 #    if-statement? Try it.
+#	 - Yes because the if-statement is evauluating a true false statement
+# 5. What happens if you change the initial values for people, cats, and dogs?
+#	 - The expressions are still evaulated and ran if they're are true.
