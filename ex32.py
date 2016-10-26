@@ -33,3 +33,6 @@ for i in elements:
 #    understand it.
 # 2. Could you have avoided that for-loop entirely on line 22 and just
 #    assigned range(0,6) directly to elements?
+#    - It printed out the same results since range is building a list.
+# 3. Find the Python documentation on lists and read about them. What other
+#    operations can you do to lists besides append?
